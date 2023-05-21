@@ -106,8 +106,6 @@ func getEvents() ([]string, error) {
 	calDavServerUrl := os.Getenv("CALDAV_SERVER_URL")
 	calDavServerUsername := os.Getenv("CALDAV_SERVER_USERNAME")
 	calDavServerPassword := os.Getenv("CALDAV_SERVER_PASSWORD")
-	//telegramChatId := os.Getenv("TELEGRAM_CHAT_ID")
-	//calanderName := os.Getenv("CALENDAR_NAME")
 
 	// Connect to the CalDAV server
 	// Create an HTTP client
